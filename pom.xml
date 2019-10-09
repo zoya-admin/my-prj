@@ -14,7 +14,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.queen-zoya.Greeting</mainClass>
+              <mainClass>com.queen-zoya.greeting.Greeting</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
