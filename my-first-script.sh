@@ -3,11 +3,11 @@
 mkdir tmp
 cd tmp
 touch pol.txt
-echo "hgf" > pol.txt
+echo "my name is ZOya" > pol.txt
 
 touch pol3.txt
 tee pol3.txt <<EOF
-kjdshfvjsdfgsd
-mdvksdgkjdhgk
-dkdjfffj
+Im from Cheboksary
+	Currently Im study in St Petersburg
+I love Kuzya
 EOF
