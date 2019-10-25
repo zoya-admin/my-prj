@@ -2,8 +2,8 @@
 	 
   <modelVersion>4.0.0</modelVersion>
   
-  <artifactId>my-artifact</artifactId>
   <groupId>com.queen_zoya</groupId>
+  <artifactId>my-artifact</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
     
@@ -33,5 +33,23 @@
       </plugin>
     </plugins>
   </build>
+	
+	<repositories>
+    <repository>
+      <id>my_nexus</id>
+      <url>http://localhost:8081/nexus/content/groups/public/</url>
+    </repository>  
+	</repositories>	
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository> 
+    <repository>
+      <id>releases</id>
+      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+    </repository>
+  </distributionManagement>
 
 </project>
